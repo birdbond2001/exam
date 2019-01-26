@@ -1,0 +1,349 @@
+.body-sation
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+.page-sation
+{
+    max-width: 1500px
+}
+.page-margin
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+#title-bigword
+{
+    margin-right: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(110, 110, 15);
+    float: left;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+
+}
+nav{
+    display: block;
+    max-width: 80%;
+    height: 100px;
+    background-color: rgb(240, 243, 245);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.navbar>a{
+    font-size: 20px;
+    padding-top: 30px;
+    padding: 30px;
+    text-decoration: none;  
+}
+.nav-link
+{
+    color: grey;
+    float:right;
+
+}
+label{
+    margin: 10px 40px 0 0;
+    font-size: 30px;
+    line-height: 70px;
+    display: none;
+    float: right;
+    
+}
+#toggle
+{
+    display: none;
+}
+.hero
+{
+    width: 100%;
+    min-height: 900px;
+}
+.hero{
+    background-image: url(http://artofcheese.ca/wp-content/uploads/2016/11/cropped-20160825_120934-2400x1300.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.word{
+    width: 700px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 200px;
+    padding-top: 10px;
+
+}
+.big-word
+{
+    font-size: 90px;
+    color: white;
+}
+.small-word
+{
+    font-size: 20px;
+    text-align: right;
+    color: white;
+      
+}
+.number
+{
+    padding-top: 80px;
+}
+.information-sation
+{
+    max-width: 1050px;
+    height: 1100px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(212, 40, 40);
+   
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 1px;
+    padding: 1px;
+    
+   
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    text-align: center;
+    font-size: 25px;
+  }
+  .pic{
+      width: 300px;
+  }
+  .information-bigwrd{
+      text-align: left;
+      color:brown;
+      padding: 20px;
+  }
+  .information-small-word
+  {
+      text-align: left;
+      font-size: 20px;
+      padding-left: 20px;
+  }
+  .learn-word
+  {
+      color: brown;
+  }
+  .owner-sation
+  {
+      width: 100%;
+  }
+  .owner-information
+  {
+      font-size:20px ;
+      float: left;
+      width: 350px;
+      height: 100%;
+      text-align: left;
+      margin: 20px;
+      
+  }
+  
+  .owner-pic-sation
+  {
+    
+    float:right;
+    width:500px;
+    height: 600px;
+    margin-top: 20px;
+  }
+  .owner-pic
+  {
+      width: 350px;
+      height: 600px;
+      padding-left: 70px;
+      
+      
+  }
+  @media screen and (max-width: 900px)
+  {
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .navbar
+    {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .navbar a
+    {
+        display: block;
+        border-bottom: 1px solid #eaeaeb;
+        margin: 0;
+        
+    }
+    #toggle:checked+ .navbar{
+        display: block;
+    }
+    .small-word{
+        text-align: center;
+       padding-top: 0px;
+       padding-right: 230px;
+    }
+    .word{
+        max-width: 500px;
+    }
+    .pic{
+        width: 100%;
+        height: 100%;
+    } 
+    .owner-pic-sation {
+        width: 500px;
+        height: 100%;
+
+    }
+    .owner-pic{
+        width: 300px;
+        height: 500px;
+    }
+    .owner-information 
+    {
+       
+        width: 200px;
+        font-size:15px;
+       
+    }
+  }
+  @media screen and (max-width: 750px)
+  {
+    .grid-container
+  {
+    grid-template-columns: auto;
+  }
+  .item1
+  {
+      grid-column: 1/2;
+      grid-row: 1/2;
+  }
+  .item4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .item2{
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .item5
+  {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .item3
+  {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  .item6{
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  .small-word{
+    text-align: center;
+   padding-top: 0px;
+   padding-right: 230px;
+}
+.word{
+    max-width: 350px;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+} 
+.owner-pic-sation {
+    width: 300px;
+    height: 100%;
+
+}
+.owner-pic{
+    width: 200px;
+    height: 500px;
+    padding: 0px;
+}
+.owner-information 
+    {
+       
+        width: 200px;
+        font-size:15px;
+       
+    }
+  }
+
+  
+
+  @media screen and (max-width: 550px)
+  {
+    .grid-container
+  {
+    grid-template-columns: auto;
+  }
+  .item1
+  {
+      grid-column: 1/2;
+      grid-row: 1/2;
+  }
+  .item4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .item2{
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .item5
+  {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .item3
+  {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  .item6{
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  .small-word{
+    text-align: center;
+   padding-top: 0px;
+   padding-right: 230px;
+}
+.word{
+    max-width: 350px;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+} 
+.owner-pic-sation {
+    width: 200px;
+    height: 100%;
+
+}
+.owner-pic{
+    width: 200px;
+    height: 500px;
+    padding: 0px;
+}
+.owner-information 
+    {
+       
+       max-width: 100px;
+        font-size:15px;
+       
+    }
+  }
